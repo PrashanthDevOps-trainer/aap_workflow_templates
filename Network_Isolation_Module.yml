@@ -4,3 +4,7 @@
     - name: Executing Network Isolation Module
       debug:
         msg: "Network Isolation Module Completed"
+    - name: Executing Python Script
+      script: hello_world.py
+      debug:
+        msg: "hello world executed successfully"
