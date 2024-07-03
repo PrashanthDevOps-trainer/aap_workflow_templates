@@ -1,0 +1,6 @@
+- name: Network Isolation Module
+  hosts: all
+  tasks:
+    - name: Executing Network Isolation Module
+      debug:
+        msg: "Network Isolation Module Completed"
