@@ -7,4 +7,3 @@
 
     - name: Executing Python Script
       cmd: python3 hello_world.py
-
